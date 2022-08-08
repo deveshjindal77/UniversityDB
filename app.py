@@ -8,8 +8,6 @@ from werkzeug.utils import redirect
 
 app = Flask(__name__)
 app.secret_key = 'Devesh Jindal'
-# myconn = mysql.connector.connect(host="localhost", user="root", passwd="amit@186", database="faculty_course",
-#                                  buffered=True)
 
 myconn = mysql.connector.connect(host = "localhost", user = "root",passwd = "07022003",database="course_management", buffered=True)
 
